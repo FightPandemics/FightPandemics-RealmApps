@@ -1,9 +1,9 @@
 {
-    "id": "5f303670bc9bfdd07c5ea773",
+    "id": "5f32fe53bc9bfdd07c90b8d5",
     "name": "mongodb-atlas",
     "type": "mongodb-atlas",
     "config": {
-        "clusterName": null,
+        "clusterName": "fp-production",
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },

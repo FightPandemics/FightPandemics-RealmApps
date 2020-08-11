@@ -1,12 +1,12 @@
 {
-    "id": "5f303670bc9bfdd07c5ea754",
+    "id": "5f32fe53bc9bfdd07c90b8b1",
     "name": "get-posts",
     "run_as_authed_user": false,
     "run_as_user_id": "",
     "run_as_user_id_script_source": "",
     "options": {
         "httpMethod": "GET",
-        "secret": "UPDATE-WITH-PER-ENV-SECRET",
+        "secret": "SECRET-UPDATED-MANUALLY",
         "validationMethod": "SECRET_AS_QUERY_PARAM"
     },
     "respond_result": true,
