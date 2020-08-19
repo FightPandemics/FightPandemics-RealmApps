@@ -23,19 +23,19 @@ The app is made available through a Google Sheet stored in the FightPandemics ac
 
 #### Initial Usage & Granting Script Permissions
 
-Since G Suite is not being the script must be granted permission to run by each invited user.
+Since G Suite is not being used the script must be granted permission to run by each invited user.
 
 1. Click the link in invitation email
 2. Once the sheet fully loads click "Get Posts"
 3. Click "Continue" in prompt asking for permission to run
 4. A pop-up will open. Select your account & click "Advanced"
-5. Click "Allow"
+5. Click "Go to fightpandemics-posts-moderation (unsafe)"
 
 ![Grant Permissions](images/posts-mod-grant-permissions.png?raw=true)
 
 #### Getting Posts
 
-The "Get Posts" button will get 100 posts at a time with the most recent posts displayed first. "Sourced by FigthPandemics" posts are excluded.
+The "Get Posts" button will get 100 posts at a time with the most recent posts displayed first. "Sourced by FightPandemics" posts are excluded.
 
 It will clear all the content under the column headers in the "Posts" sheet, so any content to be persisted should be entered elsewhere.
 
@@ -49,7 +49,7 @@ Note: If "Posts on Page" is less than 100 then it is the last page.
 These shouldn't change but if need be you can change these properties in the Google Sheet to match the Realm App. Get the values from a Realm app developer or have them complete these steps
 
 1. Click "Change Realm App Config Properties" button
-2. Enter `REALM_APP_ID` (his should start with "posts-moderation-") and click "Ok"
+2. Enter `REALM_APP_ID` (this should start with "posts-moderation-") and click "Ok"
 3. Enter `REALM_WEBHOOKS_SECRET` and click "Ok"
 4. Click "Get Posts" to confirm there are no errors
 
