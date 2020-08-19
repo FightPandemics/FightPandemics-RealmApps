@@ -1,0 +1,16 @@
+{
+    "id": "5f32fe53bc9bfdd07c90b8b1",
+    "name": "get-posts",
+    "run_as_authed_user": false,
+    "run_as_user_id": "",
+    "run_as_user_id_script_source": "",
+    "options": {
+        "httpMethod": "GET",
+        "secret": "SECRET-UPDATED-MANUALLY",
+        "validationMethod": "SECRET_AS_QUERY_PARAM"
+    },
+    "respond_result": true,
+    "disable_arg_logs": true,
+    "fetch_custom_user_data": false,
+    "create_user_on_auth": false
+}
